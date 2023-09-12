@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+// import {Greet} from './components/Greet';
+// import Hello from './components/Hello';
+// import  {Message}  from './components/Message';
+// import { Counter } from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
+// import EventBind from './components/EventBind';
+// import { ParentComponent } from './components/ParentComponent';
+// import { UserGreeting } from './components/UserGreeting';
+// import  NameList  from './components/NameList';
+// import  StyleSheet from './components/Stylesheet';
+// import  InLine  from './components/InLine';
+import { Form } from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Form />
+    {/* <StyleSheet primary={false}/> */}
+    {/* <InLine /> */}
+
+    {/* <NameList /> */}
+    {/* <UserGreeting /> */}
+    {/* <ParentComponent /> */}
+    {/* <FunctionClick /> */}
+    {/* <EventBind /> */}
+    {/* <Greet />
+    <br/>
+    <Hello name="As" heroName="BB"/>
+    <p> This is children props</p>
+    <Hello name="Da" heroName="CC"/>
+    <button> Action</button>*/}
+  {/* <Hello name="ba" heroName="DD"/>  */}
+
+    {/* <Message /> */}
+    {/* <Counter /> */}
     </div>
   );
 }
